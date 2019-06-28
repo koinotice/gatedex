@@ -1,0 +1,11 @@
+{
+  "name": "gatedex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/koinotice/gatedex.git",
+  "author": "koinotice <koinotice@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ipfs": "^0.36.4"
+  }
+}
