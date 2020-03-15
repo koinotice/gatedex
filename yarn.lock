@@ -391,9 +391,9 @@ acorn-walk@^6.1.1:
   integrity sha1-02O2b1+sXwGP+cOh57b44xDMORM=
 
 acorn@^6.1.1:
-  version "6.1.1"
-  resolved "https://registry.npm.taobao.org/acorn/download/acorn-6.1.1.tgz#7d25ae05bb8ad1f9b699108e1094ecd7884adc1f"
-  integrity sha1-fSWuBbuK0fm2mRCOEJTs14hK3B8=
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
+  integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
 after@0.8.2:
   version "0.8.2"
@@ -525,9 +525,9 @@ async-iterator-batch@~0.0.1:
   integrity sha1-UqIAyspEPQawC2pYVBLIHSJk+Fo=
 
 async-iterator-first@^1.0.0:
-  version "0.0.2"
-  resolved "https://registry.npm.taobao.org/async-iterator-first/download/async-iterator-first-0.0.2.tgz#7f7c4cd54baa8f6f8fa7860930dbe0d661b6f305"
-  integrity sha1-f3xM1Uuqj2+Pp4YJMNvg1mG28wU=
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/async-iterator-first/-/async-iterator-first-1.0.0.tgz#7376fa80ddef4fee169ffa7507fa70016aabe180"
+  integrity sha512-1PT9En58Uw1CZtcNUsrEUK5yXUxsKeaI5f7Y9/yEfQXeWObmbivvw+VZIyFL3T7BdUT1HvL2mKlHZdVpiJWCSQ==
 
 async-iterator-last@^1.0.0:
   version "1.0.0"
@@ -995,6 +995,14 @@ buffer@^5.0.2, buffer@^5.2.1:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
 
+buffer@^5.4.3:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/buffer/-/buffer-5.5.0.tgz#9c3caa3d623c33dd1c7ef584b89b88bf9c9bc1ce"
+  integrity sha512-9FTEDjLjwoAkEwyMGDjYJQN2gfRgOKBKRfiglhvibGbpeeU/pQn1bJxQqm32OD/AIeEuHxU9roxXxg34Byp/Ww==
+  dependencies:
+    base64-js "^1.0.2"
+    ieee754 "^1.1.4"
+
 builtin-status-codes@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/builtin-status-codes/download/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
@@ -1077,16 +1085,6 @@ cid-tool@~0.3.0:
     multibase "~0.6.0"
     multihashes "~0.4.14"
     yargs "^13.2.2"
-
-cids@~0.6.0:
-  version "0.6.0"
-  resolved "https://registry.npm.taobao.org/cids/download/cids-0.6.0.tgz#0de7056a5246a7c7ebf3134eb4d83b3b8b841a06"
-  integrity sha1-DecFalJGp8fr8xNOtNg7O4uEGgY=
-  dependencies:
-    class-is "^1.1.0"
-    multibase "~0.6.0"
-    multicodec "~0.5.0"
-    multihashes "~0.4.14"
 
 cids@~0.7.0, cids@~0.7.1:
   version "0.7.1"
@@ -1698,6 +1696,11 @@ err-code@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/err-code/download/err-code-1.1.2.tgz#06e0116d3028f6aef4806849eb0ea6a748ae6960"
   integrity sha1-BuARbTAo9q70gGhJ6w6mp0iuaWA=
+
+err-code@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/err-code/-/err-code-2.0.0.tgz#452dadddde12356b1dd5a85f33b28ddda377ef2a"
+  integrity sha512-MsMOijQ4v0xlmrz1fc7lyPEy7jFhoNF7EVaRSP7mPzs20LaFOwG6qNjGRy3Ie85n9DARlcUnB1zbsBv5sJrIvw==
 
 errno@~0.1.1:
   version "0.1.7"
@@ -2672,15 +2675,15 @@ ipld-bitcoin@~0.3.0:
     multihashing-async "~0.7.0"
 
 ipld-dag-cbor@~0.15.0:
-  version "0.14.0"
-  resolved "https://registry.npm.taobao.org/ipld-dag-cbor/download/ipld-dag-cbor-0.14.0.tgz#8ba999cf7de9111899effe6b2fa2c04c15aa06ff"
-  integrity sha1-i6mZz33pERiZ7/5rL6LATBWqBv8=
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/ipld-dag-cbor/-/ipld-dag-cbor-0.15.1.tgz#9f3046703a5406928a1d4f7bc5e86b58e819c8c8"
+  integrity sha512-V0ZSpC0DvnYSjC4RgyezHMZMx8g/keSi5jikElLbzCXPdRRoOemJoMBUedmIWwQaY+6f2UDbHr2qf9ZmVeL4Mw==
   dependencies:
     borc "^2.1.0"
-    cids "~0.6.0"
+    cids "~0.7.0"
     is-circular "^1.0.2"
-    multicodec "~0.5.0"
-    multihashing-async "~0.7.0"
+    multicodec "^1.0.0"
+    multihashing-async "~0.8.0"
 
 ipld-dag-pb@~0.17.0, ipld-dag-pb@~0.17.2, ipld-dag-pb@~0.17.3, ipld-dag-pb@~0.17.4:
   version "0.17.4"
@@ -2722,13 +2725,13 @@ ipld-git@~0.5.0:
     strftime "~0.10.0"
 
 ipld-raw@^4.0.0:
-  version "3.0.0"
-  resolved "https://registry.npm.taobao.org/ipld-raw/download/ipld-raw-3.0.0.tgz#85fd66f0a8f2f75c25766798ad62d5e72f85d4a4"
-  integrity sha1-hf1m8Kjy91wldmeYrWLV5y+F1KQ=
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/ipld-raw/-/ipld-raw-4.0.1.tgz#49a6f58cdfece5a4d581925b19ee19255be2a29d"
+  integrity sha512-WjIdtZ06jJEar8zh+BHB84tE6ZdbS/XNa7+XCArOYfmeJ/c01T9VQpeMwdJQYn5c3s5UvvCu7y4VIi3vk2g1bA==
   dependencies:
-    cids "~0.6.0"
-    multicodec "~0.5.0"
-    multihashing-async "~0.7.0"
+    cids "~0.7.0"
+    multicodec "^1.0.0"
+    multihashing-async "~0.8.0"
 
 ipld-zcash@~0.3.0:
   version "0.3.0"
@@ -4010,6 +4013,13 @@ multicast-dns@^7.2.0:
     dns-packet "^4.0.0"
     thunky "^1.0.2"
 
+multicodec@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/multicodec/-/multicodec-1.0.0.tgz#75652ff96cc30f63bb56264ef5c7e6526bc0becb"
+  integrity sha512-CBiLdYcMnVnkN/2kL4AaUH3betYXQGKV5CCmN2CfgHUt5xROtsj91w780ltX6Wy7frgc6en8md3h2UQl6jDXAg==
+  dependencies:
+    varint "^5.0.0"
+
 multicodec@~0.5.0, multicodec@~0.5.1, multicodec@~0.5.3:
   version "0.5.3"
   resolved "https://registry.npm.taobao.org/multicodec/download/multicodec-0.5.3.tgz#b1ef71a55d0698c9b2d89585f66e4b081f33c20c"
@@ -4021,6 +4031,14 @@ multihashes@~0.4.12, multihashes@~0.4.13, multihashes@~0.4.14:
   version "0.4.14"
   resolved "https://registry.npm.taobao.org/multihashes/download/multihashes-0.4.14.tgz#774db9a161f81a8a27dc60788f91248e020f5244"
   integrity sha1-d025oWH4Goon3GB4j5EkjgIPUkQ=
+  dependencies:
+    bs58 "^4.0.1"
+    varint "^5.0.0"
+
+multihashes@~0.4.15:
+  version "0.4.15"
+  resolved "https://registry.yarnpkg.com/multihashes/-/multihashes-0.4.15.tgz#6dbc55f7f312c6782f5367c03c9783681589d8a6"
+  integrity sha512-G/Smj1GWqw1RQP3dRuRRPe3oyLqvPqUaEDIaoi7JF7Loxl4WAWvhJNk84oyDEodSucv0MmSW/ZT0RKUrsIFD3g==
   dependencies:
     bs58 "^4.0.1"
     varint "^5.0.0"
@@ -4057,6 +4075,18 @@ multihashing-async@~0.7.0:
     err-code "^1.1.2"
     js-sha3 "~0.8.0"
     multihashes "~0.4.13"
+    murmurhash3js-revisited "^3.0.0"
+
+multihashing-async@~0.8.0:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/multihashing-async/-/multihashing-async-0.8.1.tgz#17ca2a8f5ccd1e5d0e9607435d20726a130dd8f5"
+  integrity sha512-qu3eIXHebc9a4OU4n/60BdZLFpX+/dGBs3DbzXCxX1aU0rFF19KQAiGl+sRL9wvKIJdeF2+w16RRJrpyTHpkkA==
+  dependencies:
+    blakejs "^1.1.0"
+    buffer "^5.4.3"
+    err-code "^2.0.0"
+    js-sha3 "~0.8.0"
+    multihashes "~0.4.15"
     murmurhash3js-revisited "^3.0.0"
 
 multistream-select@~0.14.4:
@@ -4791,8 +4821,9 @@ pull-utf8-decoder@^1.0.2:
   resolved "https://registry.npm.taobao.org/pull-utf8-decoder/download/pull-utf8-decoder-1.0.2.tgz#a7afa2384d1e6415a5d602054126cc8de3bcbce7"
   integrity sha1-p6+iOE0eZBWl1gIFQSbMjeO8vOc=
 
-"pull-ws@github:hugomrdias/pull-ws#fix/bundle-size":
+pull-ws@hugomrdias/pull-ws#fix/bundle-size:
   version "3.3.1"
+  uid "8e2ce0bb3b1cd6804828316e937fff8e0bef6225"
   resolved "https://codeload.github.com/hugomrdias/pull-ws/tar.gz/8e2ce0bb3b1cd6804828316e937fff8e0bef6225"
   dependencies:
     iso-url "^0.4.4"
